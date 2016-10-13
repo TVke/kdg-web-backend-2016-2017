@@ -1121,9 +1121,9 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	</thead>
 	<tbody>
 		<tr>
-			<td>X</td>
+			<td>1</td>
 			<td>O</td>
-			<td></td>
+			<td>1</td>
 			<td></td>
 			<td></td>
 			<td></td>
