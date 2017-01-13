@@ -11,7 +11,7 @@ ECTS: [Web back-end WP 2](https://bamaflexweb.kdg.be/BMFUIDetailxOLOD.aspx?a=564
 	- Instructies hoe je dit moet doen staan beschreven op de site zelf
 	- gebaseerd op http://news.ycombinator.com
 	- Plaats de oplossing in je eigen oplossingen-map en upload deze naar je oplossingen repo
-	- Probeer ook de applicatie online te zetten (en deel de URL naar waar de applicatie te vinden valt)
+	- Probeer ook de applicatie online te zetten  en zet de url waarop de applicatie toegankelijk in een readme.md in je oplossing map en vergeet niet te pushen naar je oplossingen repo. Zo weet ik waar ik je online versie kan vinden.
 	- Deadline: Donderdag 26/01/2017
 	- Het online feedback moment gaat door op zondag 8/01/2017 om 21u (op hangouts https://hangouts.google.com/group/5H6RfsT5ON17BoK12)
 
