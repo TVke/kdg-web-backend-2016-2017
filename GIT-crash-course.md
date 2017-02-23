@@ -15,6 +15,8 @@ Versiebeheer laat je toe om verschillende versies van een applicatie bij te houd
 
 Gedistribueerd betekent dat iedereen een kopie heeft van de originele applicatie, in tegenstelling met gecentraliseerd versiebeheersysteem, waarbij iedereen dezelfde "master"-versie heeft. Gecentraliseerd versiebeheer heeft enorm veel nadelen ([Linus Torvalds, de uitvinder van het distribueerde systeem, legt uit waarom](https://www.youtube.com/watch?v=4XpnKHJAok8)) en zou dus niet meer mogen gebruikt worden.
 
+Git is voornamelijk bedoeld voor tekstbestanden en niet voor gecompilede bestanden zoals afbeeldingen, pdf's, exe's, ... 
+
 ## Git installeren
 
 Voor Linux en Mac gebruikers is het makkelijk, daar is Git standaard geïnstalleerd. Windows-gebruikers moeten dit expliciet installeren. Surf naar [Git-SCM](https://git-scm.com/) en download de juiste versie.
@@ -92,7 +94,7 @@ Wanneer je klaar bent met het toevoegen van een bepaalde functionaliteit, moet j
 git commit -m "Add upvote functionality"
 ```
 
-De `-m" flag staat voor message, hiermee voeg je een boodschap toe aan je commit. Voeg altijd een boodschap toe aan je commit, want dit is de enige manier om een beschrijving aan je wijzigingen toe te voegen. 
+De `-m` flag staat voor message, hiermee voeg je een boodschap toe aan je commit. Voeg altijd een boodschap toe aan je commit. Dit is makkelijk omdat je dan in een oogopslag weet welke wijzigingen je in die commit hebt uitgevoerd zonder dat je naar de code moet kijken.
 
 Een goede commit message begint met een werkwoord gevolgd door een onderwerp en bevat meestal maar enkele woorden. 
 
@@ -102,7 +104,7 @@ In het begin is het even wennen, maar een goede commit history kan je heel wat k
 
 ### wijzigingen bekijken 
 
-Dit is iets waar de CLI wat in  tekort schiet. De GUIs zoals ScourceTree zijn heel goed in het in beeld brengen van de verschillende versies en de verschillen tussen de verschillende versies. De GUIs zijn dus zeker de moeite om eens te bekijken. Maar, met de CLI gaat het ook:
+Dit is iets waar de CLI wat in  tekort schiet. De GUIs zoals ScourceTree zijn heel goed in het visualiseren van de verschillende versies. De GUIs zijn dus zeker de moeite om eens te bekijken. Maar, met de CLI gaat het ook:
 
 ```
 git diff
@@ -119,7 +121,7 @@ Deze command brengt je volledige commit history in kaart. Je ziet bij elke commi
 ```
 git checkout hashkey
 ```
-Waarbij je hashkey vervangt door de key van de commit dit je wil bekijken.
+Waarbij je hashkey vervangt door de key van de commit dit je wil bekijken. Let wel op, wanneer je een commit wil bekijken door middel van checkout, wordt er automatisch een nieuwe branch gemaakt.
 
 ### wijzigingen ongedaan maken
 
@@ -133,7 +135,61 @@ Let op, alle wijzigingen die je hebt uitgevoerd ben je dan permanent kwijt. Dus,
 
 ## Git branches
 
+Een branch is een finale versie van je applicatie. Wanneer je een commit uitvoert, wordt deze dus toegevoegd aan de branch waar je op dat moment in zit te werken.
 
+```
+git branch
+```
+
+Dit somt alle branches op die de repository kent. Wanneer je een nieuw project start, werk je altijd op de master branch.
+
+Maar wat is een branch precies? Stel, je wil een update aan je applicatie uitvoeren, dan is het niet de bedoeling dat je in de master branch je commits gaat uitvoeren, maar dat je een nieuwe branch aanmaakt. Een nieuwe branch aanmaken betekent dat je een exacte kopie maakt van de branch waarin je dat moment zit te werken. Dit doe je zo
+
+```
+git checkout -b nameOfNewBranch
+```
+
+De -b flag staat voor de branch naam. In plaats van nameOfNewBranch schrijf je in één woord aan welke wijziging je zal werken, bv. downvoteFunctionality. Vaak worden er ook versienummers gebruikt als branchnaam, maar dan wordt het moeilijker om te achterhalen waar er op dat moment in die branch aan wordt gewerkt. 
+
+Wanneer je deze command uitvoert, zal je je ook automatisch in de net aangemaakte branch bevinden. Verder doe je je commits zoals je die gewoon bent. 
+
+Een goede gewoonte is om nooit in de master branch te werken. Dat wordt al heel snel duidelijk wanneer je bijvoorbeeld een critical bug moet fixen wanneer je aan een nieuwe versie van de applicatie bezig bent (in een nieuwe branch, uiteraard).
+
+Om een fout te fixen die zich in de master branch bevindt kan je dan makkelijk je werk voor de update even opzij zetten. Eerst doe je een commit van je huidige werk, anders verlies je alles tot aan de laatste commit die je hebt uitgevoerd. Daarna ga je naar de master branch door
+
+```
+git checkout master
+```
+
+Je maakt een nieuwe branch van de master, bv. `git checkout -b bugFix", je fixt de bug en voert de commits uit zoals je die gewoon bent. 
+
+Het is niet zo dat wijzigingen in een kopie van een branch, ook in de originele branch plaatsvinden. Je moet de wijzigingen in de nieuwe branch mergen met de branch waarvan je de kopie hebt genomen. 
+
+Wanneer je klaar bent, kan je de bugFix branch met de master mergen, zodat de officiële versie van je applicatie die zich in de master bevindt, ook de wijzigingen uit de bugFix zal ontvangen. Navigeer daarvoor eerst naar de branch die de bugFix moet ontvangen en voer daarin de volgende command uit
+
+```
+git merge bugFix
+```
+
+Ziezo, een bug gefixt. Het voordeel van deze werkwijze is dat je nu weer makkelijk naar de te updaten branch kan switchen, zonder dat je werk verloren is gegaan of dat je hebt moeten wachten tot deze update afgewerkt was om aan de bug te beginnen.
+
+Waar je wel rekening mee moet houden is dat de master nu 'ahead' is op de branch waarin je je updates aan het uitvoeren bent. Dit wil zeggen dat er in de master wijzigingen hebben plaatsgevonden die niet in de huidige branch zitten. Dat is makkelijk op te lossen door de master branch te mergen in de branch die 'behind' is.
+
+### Merge conflict
+
+Meestal gebeurt het mergen zonder problemen, maar af en toe gebeurt het dat er een merge conflict ontstaat. 
+
+Een merge conflict gebeurt wanneer je een branch wil mergen, maar dat de branch waarvan je de kopie hebt gemaakt wijzigingen bevat die niet in de gekopieerde versie van de branch zitten. Git zal de files dan niet automatisch mergen, maar zal op de plaats waar het merge conflict plaatsvind, beide stukjes code in de volgende syntax weergeven
+
+```
+<<<<<<< HEAD
+originele code uit master branch
+=======
+nieuwe code uit kopie van master branch
+>>>>>>>
+```
+
+Je zal dus zelf moeten beslissen welk stukje code je wil overhouden en welk stukje verwijderd kan worden. Verwijder ook de syntax die Git heeft toegevoegd om het merge conflict aan te duiden, anders zal Git niet herkennen dat je het merge conflict hebt opgelost.
 
 ## Een bestaand lokaal Git-project koppelen aan een online repository
 
