@@ -11,11 +11,13 @@
 
 Een gedistribueerd versiebeheersysteem. 
 
-Versiebeheer laat je toe om verschillende versies van een applicatie bij te houden, zodat je makkelijk naar een vorige versie kan teruggrijpen. Het staat je ook toe om met een team aan één applicatie te werken, zonder dat je daarbij elkaars werk overschrijft. 
+Versiebeheer laat je toe om verschillende versies van een applicatie bij te houden zodat je makkelijk naar een vorige versie kan teruggrijpen. Het staat je ook toe om met een team aan één applicatie te werken, zonder dat je daarbij elkaars werk overschrijft. 
 
-Gedistribueerd betekent dat iedereen een kopie heeft van de originele applicatie, in tegenstelling met gecentraliseerd versiebeheersysteem, waarbij iedereen dezelfde "master"-versie heeft. Gecentraliseerd versiebeheer heeft enorm veel nadelen ([Linus Torvalds, de uitvinder van het distribueerde systeem, legt uit waarom](https://www.youtube.com/watch?v=4XpnKHJAok8)) en zou dus niet meer mogen gebruikt worden.
+Gedistribueerd betekent dat iedereen een kopie heeft van de originele applicatie, in tegenstelling met gecentraliseerd versiebeheersysteem (CVS), waarbij iedereen dezelfde "master"-versie heeft. Gecentraliseerd versiebeheer heeft enorm veel nadelen ([Linus Torvalds, de uitvinder van het distribueerde systeem, legt uit waarom](https://www.youtube.com/watch?v=4XpnKHJAok8)) en zou dus niet meer mogen gebruikt worden.
 
-Git is voornamelijk bedoeld voor tekstbestanden en niet voor gecompilede bestanden zoals afbeeldingen, pdf's, exe's, ... 
+Git is voornamelijk bedoeld voor bestanden die tekst bevatten en niet voor gecompilede bestanden (binary files) zoals afbeeldingen, pdf's, exe's, ... (hoewel het wel mogelijk is)
+
+Let op, Git en Github zijn niet hetzelfde. Git is een versiebeheersysteem, terwijl GitHub een online platform is om repositories op te hosten, net zoals BitBucket er een is. Ze staan dus volledig los van elkaar.
 
 ## Git installeren
 
@@ -96,7 +98,7 @@ git commit -m "Add upvote functionality"
 
 De `-m` flag staat voor message, hiermee voeg je een boodschap toe aan je commit. Voeg altijd een boodschap toe aan je commit. Dit is makkelijk omdat je dan in een oogopslag weet welke wijzigingen je in die commit hebt uitgevoerd zonder dat je naar de code moet kijken.
 
-Een goede commit message begint met een werkwoord gevolgd door een onderwerp en bevat meestal maar enkele woorden. 
+Een goede commit message begint met een werkwoord in de tegenwoordige zijd gevolgd door een onderwerp. Hou de commit message zo bondig mogelijk. 
 
 Een goede raad: "Commit early, commit often". Daarmee wordt bedoeld dat je niet moet wachten tot je een werkende versie hebt van je applicatie vooraleer een commit uit te uitvoeren. En hoe meer commits, hoe beter. Dit zorgt ervoor dat wanneer er iets niet meer werkt, je de branch makkelijk kan terugrollen naar een vorige commit. Zo zal je applicatie niet alleen terug werken, je zal ook makkelijker je fout kunnen localiseren door te kijken naar wat er gewijzigd is.
 
@@ -110,13 +112,15 @@ Dit is iets waar de CLI wat in  tekort schiet. De GUIs zoals ScourceTree zijn he
 git diff
 ```
 
-Hiermee worden alle files vergeleken met de versie van de laatste commit. Je kan dit dus enkel uitvoeren tussen het moment dat je een wijziging hebt gemaakt en het uitvoeren van de commit.
+Hiermee worden alle files vergeleken met de versie van de laatste commit.Je kan dit dus enkel uitvoeren tussen het moment dat je een wijziging hebt gemaakt en het uitvoeren van de commit.
+
+Deze command brengt je volledige commit history in kaart:
 
 ```
 git log
 ```
 
-Deze command brengt je volledige commit history in kaart. Je ziet bij elke commit ook een hashkey staan. Dat is het unieke identificatienummer van je commit. Je kan makkelijk tussen verschillende commits navigeren door de volgende command:
+Je ziet bij elke commit ook een hashkey staan. Dat is het unieke identificatienummer van je commit. Je kan makkelijk tussen verschillende commits navigeren door de volgende command:
 
 ```
 git checkout hashkey
@@ -153,7 +157,15 @@ De -b flag staat voor de branch naam. In plaats van nameOfNewBranch schrijf je i
 
 Wanneer je deze command uitvoert, zal je je ook automatisch in de net aangemaakte branch bevinden. Verder doe je je commits zoals je die gewoon bent. 
 
-Een goede gewoonte is om nooit in de master branch te werken. Dat wordt al heel snel duidelijk wanneer je bijvoorbeeld een critical bug moet fixen wanneer je aan een nieuwe versie van de applicatie bezig bent (in een nieuwe branch, uiteraard).
+Een goede gewoonte is om nooit in de master branch te werken. Dat wordt al heel snel duidelijk wanneer je bijvoorbeeld een critical bug moet fixen maar al aan een nieuwe versie van de applicatie bezig bent (in een nieuwe branch, uiteraard).
+
+Als je een branch een nieuwe naam wil geven, dan kan je de volgende command uitvoeren:
+
+```
+git checkout -m oudeBranchName nieuweBranchName
+```
+
+De "-m" flag staat voor move (of mv) wat in CLI-commands gebruikt wordt om een bestand te hernoemen (verplaatsen naar een locatie met een andere naam). 
 
 Om een fout te fixen die zich in de master branch bevindt kan je dan makkelijk je werk voor de update even opzij zetten. Eerst doe je een commit van je huidige werk, anders verlies je alles tot aan de laatste commit die je hebt uitgevoerd. Daarna ga je naar de master branch door
 
@@ -191,9 +203,73 @@ nieuwe code uit kopie van master branch
 
 Je zal dus zelf moeten beslissen welk stukje code je wil overhouden en welk stukje verwijderd kan worden. Verwijder ook de syntax die Git heeft toegevoegd om het merge conflict aan te duiden, anders zal Git niet herkennen dat je het merge conflict hebt opgelost.
 
+## Git een online repository laten binnenhalen (clonen)
+
+Vaak wil je bestaande repositories op Github lokaal binnenhalen zodat je er zelf mee aan de slag kan. Dat kan heel makkelijk. 
+
+Ga op zoek naar de url waar het te clonen project zich bevindt. Dit is meestal ergens onder een "clone or download" functionaliteit. Let op, de url moet op eindigen met de bestandsextensie .git, zoals bv. https://github.com/jquery/jquery.git
+
+Open je CLI en navigeer naar de map waar de te clonen repository moet komen en voer daarna deze command uit:
+
+```
+git clone https://github.com/jquery/jquery.git jquery
+```
+
+Het woord na de repository-url is de naam van de map waarin de repository moet komen. Laat je dit weg, dan wordt er geen nieuw map aangemaakt en zal de repo in de huidige map worden gekopiëerd. 
+
+Dit clonen hoef je maar één keer te doen. Van zodra je een online repo hebt gecloned, kan je makkelijk de laatste nieuwe versie binnenhalen door naar de map te navigeren waarin de geclonede repo zich bevindt. In het bovenstaande voorbeeld is dat dus in de map /jquery en niet in de bovenliggende map. Voer daarna de volgende command uit:
+
+```
+git pull origin master
+```
+
+In het volgende hoofdstuk meer over deze command.
+
 ## Een bestaand lokaal Git-project koppelen aan een online repository
 
-## Git een online repository laten binnenhalen (clonen)
+Je hebt een eigen project klaar en wil dit delen met de rest van de wereld. Dat kan via de services van Github of BitBucket. Schrijf je in op een van deze sites. Op je profiel maak je een nieuwe repository aan en je geeft dit de naam van je nog online te zetten project. Ga op zoek naar de URL waar deze online repo zich bevindt (remote) en hou deze even bij.
+
+Open je CLI en navigeer naar de map waar je repo zich bevindt. Voer de volgende command uit: 
+
+```
+git remote add origin https://github.com/username/locatie-van-de-remote.git
+```
+
+Zorg er zeker voor dat de URL die je gebruikt eindigt op de .git extensie. De "remote add" wordt gebruikt om een locatie toe te voegen waar je een online versie van de repo kan vinden. "origin" is de alias (variabelenaam) van deze remote. Je kan deze dus eender welke naam geven, maar doorgaans wordt origin gebruikt om een remote aan te duiden.
+
+Je kan dus meerdere online locaties toevoegen, zolang de naam van de alias nog niet gebruikt is. Dit kan je doen als je een project zowel naar GitHub als naar BitBucket wil uploaden (bv. originGH, originBB).
+
+Als je merkt dat je een fout hebt gemaakt in de URL (.git vergeten), of je wil de URL van de origin van locatie wijzigen, dan kan dat met de volgende command:
+
+```
+git remote set-url origin https://github.com/username/nieuwe-locatie-van-de-remote.git
+```
+
+Waarbij "origin" de alias is van de remote die je wil wijzigen. Bevestig daarna even of de wijziging goed is doorgevoerd door middel van deze command:
+
+```
+git remote -v
+```
+
+Hierdoor krijg je alle remotes met bijhorende URL te zien. De "-v" flag staat voor verbose en toont de URL van de remote. 
+
+Je hebt enkel nog maar aan Git verteld wáár die remote zich bevindt, maar het project zelf staat nog niet online. Dat doen we nu.
+
+Soms kan het zijn dat er in de online repository die je net hebt aangemaakt, bestanden zitten die niet in de lokale repository zitten. Deze moet je eerst ook lokaal hebben staan, anders zijn de lokale en remote repo niet in sync. Voer daarom eerst de volgende command uit:
+
+```
+git pull origin master
+```
+
+Dit haalt alle online wijzigingen binnen. "origin" staat voor de alias die verwijst naar de URL van de remote en "master" is de naam van de online branch die in de huidige lokale branch gemerged moet worden.
+
+```
+git push -u origin master
+```
+
+Net zoals bij de `pull`-command staat "origin" voor de alias die verwijst naar de URL van de remote en is het "master"-argument de naam van de online branch waaraan de wijzigingen toegevoegd moeten worden. Deze command geeft je meestal de meeste voldoening, want het betekent dat er een bepaald deel van de applicatie is afgewerkt en klaar is om online te zetten.
+
+De "-u"-flag staat voor "upstream", maar dat is een [redelijk complex verhaal](http://stackoverflow.com/questions/33503080/learning-git-tracking-vs-setting-upstream-u-for-remotes) dat interessant is als achtergrondinformatie, maar niet essentiëel is om met Git aan de slag te kunnen.
 
 ## Nuttige Git commands
 
