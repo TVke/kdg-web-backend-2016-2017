@@ -173,7 +173,7 @@ Om een fout te fixen die zich in de master branch bevindt kan je dan makkelijk j
 git checkout master
 ```
 
-Je maakt een nieuwe branch van de master, bv. `git checkout -b bugFix", je fixt de bug en voert de commits uit zoals je die gewoon bent. 
+Je maakt een nieuwe branch van de master, bv. `git checkout -b bugFix`, je fixt de bug en voert de commits uit zoals je die gewoon bent. 
 
 Het is niet zo dat wijzigingen in een kopie van een branch, ook in de originele branch plaatsvinden. Je moet de wijzigingen in de nieuwe branch mergen met de branch waarvan je de kopie hebt genomen. 
 
@@ -267,12 +267,7 @@ Dit haalt alle online wijzigingen binnen. "origin" staat voor de alias die verwi
 git push -u origin master
 ```
 
-Net zoals bij de `pull`-command staat "origin" voor de alias die verwijst naar de URL van de remote en is het "master"-argument de naam van de online branch waaraan de wijzigingen toegevoegd moeten worden. Deze command geeft je meestal de meeste voldoening, want het betekent dat er een bepaald deel van de applicatie is afgewerkt en klaar is om online te zetten.
+Net zoals bij de `pull` command staat "origin" voor de alias die verwijst naar de URL van de remote en is het "master" argument de naam van de online branch waaraan de wijzigingen toegevoegd moeten worden. Deze command geeft je meestal de meeste voldoening, want het betekent dat er een bepaald deel van de applicatie is afgewerkt en klaar is om online te zetten.
 
-De "-u"-flag staat voor "upstream", maar dat is een [redelijk complex verhaal](http://stackoverflow.com/questions/33503080/learning-git-tracking-vs-setting-upstream-u-for-remotes) dat interessant is als achtergrondinformatie, maar niet essentiëel is om met Git aan de slag te kunnen.
-
-## Nuttige Git commands
-
-- Url van origin wijzigen
-- Naam van de branch wijzigen
+De "-u" flag staat voor "upstream", maar dat is een [redelijk complex verhaal](http://stackoverflow.com/questions/33503080/learning-git-tracking-vs-setting-upstream-u-for-remotes) dat interessant is als achtergrondinformatie, maar niet essentiëel is om met Git aan de slag te kunnen.
 
