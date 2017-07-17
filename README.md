@@ -6,6 +6,19 @@ ECTS: [Web back-end WP 2](https://bamaflexweb.kdg.be/BMFUIDetailxOLOD.aspx?a=564
 
 ## Deadlines
 
+- Deadline 2de zit
+	- Deadline: maandag 28/08/2017 23u55
+	- Moest dit nog niet gebeurd zijn: werk alle opdrachten af die tijdens cursusaan bod kwamen en commit ze naar je GitHub profiel
+	- Bouw de volgende applicatie zo goed mogelijk na door middel van een framework te gebruiken (Laravel is aan te raden keuze): http://kdg.pascalculator.be/15-16/opdracht-02-todo-uitgebreid/public/
+		- De oplossing is gegeven, probeer dit zo precies mogelijk na te bouwen
+		- Functionaliteit (PHP) is het belangrijkst
+		- HTML/CSS (evt JS) mag je overnemen of zelf schrijven (maar moet wel correct toegepast worden)
+		- Ten rade gaan bij je medestudenten mag zeker, maar je schrijft en begrijpt zelf alle code.
+		- Deze opdracht komt publiek op je web-backend repository in de map "2dezitopdracht-todo" te staan
+		- Vergeet niet een export van de database te doen en deze mee in de repository te plaatsen
+		- Probeer ook je applicatie op een server te plaatsen en zet de url waarop de applicatie toegankelijk in een readme.md in je oplossing map en push deze naar je oplossingen repo. Zo weet ik waar ik je online versie kan vinden.
+	- Zip alle opdrachten inclusief de TODO en upload deze eveneens naar blackboard. Let op, niet ingediend op blackboard betekent niet deelgenomen aan 2de zit!
+
 - Deadline 11: Periode-opdracht 2
 	- Maak http://pascalculator.be/hackernews/public/ na door gebruik te maken van een framework, bij voorkeur Laravel
 	- Instructies hoe je dit moet doen staan beschreven op de site zelf
