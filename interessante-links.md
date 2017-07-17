@@ -9,7 +9,13 @@
 - Talk van Lea Verou (W3C): https://www.youtube.com/watch?v=3ikye7Qc7Ak
 - Talk van Eric Meyer (Style Reset): https://www.youtube.com/watch?v=XKpiP60HXwM
 
+### CSS Frameworks
+- Twitter Bootstrap: http://getbootstrap.com/
+- Foundation: http://foundation.zurb.com/
+- Materialze CSS: http://materializecss.com/
+
 ## XDebug
+- Hoe XDebug installeren: https://xdebug.org/wizard.php
 - http://docs.joomla.org/Edit_PHP.INI_File_for_XDebug Hoe Xdebug instellen op Mac
 
 ## XAMPP
@@ -26,3 +32,5 @@
 ## Git/hub
 - Interactieve git tutorial: https://try.github.io/levels/1/challenges/1
 
+## PHP
+- Zeer grote github repository met gratis boeken en andere resources voor een groot aantal programmeertalen (waaronder PHP).

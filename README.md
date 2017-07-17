@@ -6,7 +6,98 @@ ECTS: [Web back-end WP 2](https://bamaflexweb.kdg.be/BMFUIDetailxOLOD.aspx?a=564
 
 ## Deadlines
 
-- Hier komen de deadlines
+- Deadline 2de zit
+	- Deadline: maandag 28/08/2017 23u55
+	- Moest dit nog niet gebeurd zijn: werk alle opdrachten af die tijdens cursusaan bod kwamen en commit ze naar je GitHub profiel
+	- Bouw de volgende applicatie zo goed mogelijk na door middel van een framework te gebruiken (Laravel is aan te raden keuze): http://kdg.pascalculator.be/15-16/opdracht-02-todo-uitgebreid/public/
+		- De oplossing is gegeven, probeer dit zo precies mogelijk na te bouwen
+		- Functionaliteit (PHP) is het belangrijkst
+		- HTML/CSS (evt JS) mag je overnemen of zelf schrijven (maar moet wel correct toegepast worden)
+		- Ten rade gaan bij je medestudenten mag zeker, maar je schrijft en begrijpt zelf alle code.
+		- Deze opdracht komt publiek op je web-backend repository in de map "2dezitopdracht-todo" te staan
+		- Vergeet niet een export van de database te doen en deze mee in de repository te plaatsen
+		- Probeer ook je applicatie op een server te plaatsen en zet de url waarop de applicatie toegankelijk in een readme.md in je oplossing map en push deze naar je oplossingen repo. Zo weet ik waar ik je online versie kan vinden.
+	- Zip alle opdrachten inclusief de TODO en upload deze eveneens naar blackboard. Let op, niet ingediend op blackboard betekent niet deelgenomen aan 2de zit!
+
+- Deadline 11: Periode-opdracht 2
+	- Maak http://pascalculator.be/hackernews/public/ na door gebruik te maken van een framework, bij voorkeur Laravel
+	- Instructies hoe je dit moet doen staan beschreven op de site zelf
+	- gebaseerd op http://news.ycombinator.com
+	- Plaats de oplossing in je eigen oplossingen-map en upload deze naar je oplossingen repo
+	- Probeer ook de applicatie online te zetten  en zet de url waarop de applicatie toegankelijk in een readme.md in je oplossing map en vergeet niet te pushen naar je oplossingen repo. Zo weet ik waar ik je online versie kan vinden.
+	- Deadline: Donderdag 26/01/2017
+	- Het online feedback moment gaat door op zondag 8/01/2017 om 21u (op hangouts https://hangouts.google.com/group/5H6RfsT5ON17BoK12)
+
+- Deadline 10: Frameworks
+	- Deadline: voor de les van donderdag 14 januari 2016
+	- Opdracht: Werk minstens één tutorial af van een framework naar keuze (Laravel, CodeIgniter)
+		- [Laracast tutorial](https://laracasts.com/series/laravel-5-fundamentals)
+		- [Officiële laravel tutorial (beginner + intermediate)](https://laravel.com/docs/5.2/quickstart)
+		- [CodeIgniter tutorial](http://www.codeigniter.com/user_guide/)
+	- Vergeet niet een commit van je opdrachten te doen
+	- Dit is de perfecte voorbereiding voor je periode-opdracht
+
+- Deadline 09: mod_rewrite & Single Point of Entry
+	- Deadline: voor de les van donderdag 22 december 2016
+	- Opdracht: Opdrachten op mod_rewrite & Single Point of Entry
+	- Vergeet niet een commit van je opdrachten te doen
+	- Neem de slides/voorbeelden tot en met MVC (slide 254) eens door, daar gaan we mee verder volgende les.
+	- Het online feedback moment gaat door op zondag 18/12/2016 om 21u (op hangouts https://hangouts.google.com/group/5H6RfsT5ON17BoK12)
+
+- Deadline 08: File upload + AJAX
+	- Deadline: voor de les van donderdag 15 december 2016
+	- Opdracht: Opdrachten op FILE UPLOAD & AJAX (image manipulation NIET)
+	- Vergeet niet een commit van je opdrachten te doen
+	- Neem de slides/voorbeelden tot en met cron jobs (slide 218) eens door, daar gaan we mee verder volgende les.
+	- Het online feedback moment gaat door op zondag 11/12/2016 om 21u (op hangouts https://hangouts.google.com/group/5H6RfsT5ON17BoK12)
+
+- Deadline 07: CRUD + security
+	- Deadline: voor de les van donderdag 8 december 2016
+	- Opdracht: tot en met Security login (CRUD CMS mag, hoeft niet)
+	- Vergeet niet een commit van je opdrachten te doen
+	- Neem de slides/voorbeelden tot en met AJAX (slide 201) eens door, daar gaan we mee verder volgende les.
+	- UITGESTELD (sorry)!!! (4/12/2016)Het online feedback moment gaat door op zondag 4/12/2016 om 21u (op hangouts https://hangouts.google.com/group/5H6RfsT5ON17BoK12)
+
+
+- Deadline 06
+	- Deadline: voor de les van donderdag 01 december 2016
+	- Opdracht: tot en met CRUD update
+	- Vergeet niet een commit van je opdrachten te doen
+	- Neem de slides/voorbeelden tot en met security (slide 186) eens door, daar gaan we mee verder volgende les.
+	- Neem een blauwe muts mee
+
+- Deadline 05 + Periode-opdracht
+	- Deadline: voor de les van donderdag 24 november 2016
+	- Opdracht: tot en met opdracht __autoload (slide 157)
+	- Vergeet niet een commit van je opdrachten te doen
+	- Neem de slides/voorbeelden tot en met CRUD eens door, daar gaan we mee verder volgende les.
+	- Periode-opdracht 01: http://pascalnosenzo.multimediatechnology.be/web-backend/periode-opdracht-01/
+
+- Deadline 04
+	- Deadline: voor de les van donderdag 27 oktober 2016
+	- Opdracht: tot en met opdracht SESSIONS (slide 110)
+	- Vergeet niet een commit van je opdrachten te doen
+	- Neem de slides/voorbeelden tot en met error handling eens door, daar gaan we mee verder volgende les.
+
+
+- Deadline 03
+	- Deadline: voor de les van donderdag 20 oktober 2016
+	- Opdracht: tot en met opdracht POST (herhalingsopdracht mag, maar hoeft niet) (slide 94)
+	- Vergeet niet een commit van je opdrachten te doen
+	- Neem de slides/voorbeelden tot en met sessions/cookies eens door, daar gaan we mee verder volgende les.
+
+
+- Deadline 02
+	- Deadline: voor de les van donderdag 13 oktober 2016
+	- Opdracht: tot en met opdracht functions-recursive (slide 85)
+	- Vergeet niet een commit van je opdrachten te doen
+	- Neem de slides/voorbeelden van $_GET/$_POST eens door, daar gaan we mee verder volgende les.
+
+
+- Deadline 01
+	- Deadline: voor de les van donderdag 6 oktober 2016
+	- Opdracht: opzetten van development omgeving en repository zoals beschreven in de cursus
+
 
 ## Cursus
 
@@ -114,8 +205,8 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 ## Studenten
 
 1. Aussems Alessandro
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: alessandro.aussems@student.kdg.be
+	- GitHub: https://github.com/alessandroaussems/web-backend-oplossingen.git
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -134,15 +225,15 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	</thead>
 	<tbody>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>0</td>
+			<td>0</td>
+			<td>1</td>
+			<td>0</td>
+			<td>1</td>
+			<td>0</td>
+			<td>1</td>
+			<td>1</td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -150,8 +241,8 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 </table>
 
 2. Banasik Katriena
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: katriena.banasik@student.kdg.be
+	- GitHub: https://github.com/galaxic/web-backend-oplossingen
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -173,13 +264,13 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 			<td></td>
 			<td></td>
 			<td></td>
+			<td>1</td>
 			<td></td>
+			<td>1</td>
 			<td></td>
+			<td>1</td>
 			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
 			<td></td>
 		</tr>
 	</tbody>
@@ -206,12 +297,12 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	</thead>
 	<tbody>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>0</td>
+			<td>1</td>
+			<td>1</td>
+			<td>0</td>
+			<td>1</td>
+			<td>1</td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -222,8 +313,8 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 </table>
 
 4. Buys Kevin
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: kevin.buys@student.kdg.be
+	- GitHub: https://github.com/Kevbi/web-backend-oplossingen
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -245,7 +336,7 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 			<td></td>
 			<td></td>
 			<td></td>
-			<td></td>
+			<td>1</td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -258,8 +349,8 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 </table>
 
 5. De Corte Jens
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: jens.decorte@student.kdg.be
+	- GitHub: https://github.com/JensDeCorte/web-backend-oplossingen
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -280,11 +371,11 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 		<tr>
 			<td></td>
 			<td></td>
+			<td>1</td>
+			<td>1</td>
 			<td></td>
 			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -314,17 +405,17 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	</thead>
 	<tbody>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>0</td>
+			<td>1</td>
+			<td>1</td>
+			<td>0</td>
+			<td>1</td>
+			<td>1</td>
+			<td>0</td>
 		</tr>
 	</tbody>
 </table>
@@ -354,7 +445,7 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 			<td></td>
 			<td></td>
 			<td></td>
-			<td></td>
+			<td>1</td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -366,8 +457,8 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 </table>
 
 8. Detemmerman Jordy
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: jordy.detemmerman@student.kdg.be
+	- GitHub: https://github.com/Temeines/web-backend-oplossingen
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -386,15 +477,15 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	</thead>
 	<tbody>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>0</td>
+			<td>0</td>
+			<td>1</td>
+			<td>0</td>
+			<td>1</td>
+			<td>1</td>
+			<td>0</td>
+			<td>1</td>
+			<td>1</td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -402,8 +493,8 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 </table>
 
 9. Diels Lode
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: lode.diels@student.kdg.be
+	- GitHub: https://github.com/LodeDiels/web-backend-oplossingen.git
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -422,13 +513,13 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	</thead>
 	<tbody>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>0</td>
+			<td>0</td>
+			<td>1</td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -438,8 +529,8 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 </table>
 
 10. Heynderickx Stijn
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: stijn.heynderickx@student.kdg.be
+	- GitHub: https://github.com/stinooww/web-backend.git
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -474,8 +565,8 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 </table>
 
 11. Kbyeh Manar
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: manar.kbyeh@student.kdg.be
+	- GitHub: https://github.com/manarkbyeh/web-backend-oplossingen
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -494,12 +585,12 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	</thead>
 	<tbody>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>0</td>
+			<td>1</td>
+			<td>0</td>
+			<td>1</td>
+			<td>1</td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -510,8 +601,8 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 </table>
 
 12. Lambrechts Tyas
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: Tyas.lambrechts@student.kdg.be
+	- GitHub: https://github.com/homeforce/BackendOplossingen.git
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -530,12 +621,12 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	</thead>
 	<tbody>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>0</td>
+			<td>0</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -546,8 +637,8 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 </table>
 
 13. Melis Pieter
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: melis.pieter@student.kdg.be
+	- GitHub: https://github.com/PieterMelis/oplossingen-back-end
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -566,15 +657,15 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	</thead>
 	<tbody>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>0</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -603,23 +694,23 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	<tbody>
 		<tr>
 			<td>1</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>0</td>
+			<td>1</td>
+			<td>0</td>
+			<td>1</td>
+			<td>0</td>
+			<td>0</td>
+			<td>1</td>
+			<td>0</td>
+			<td>1</td>
 			<td></td>
 		</tr>
 	</tbody>
 </table>
 
 15. Moerloos Thessa
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: thessa.moerloos@student.kdg.be
+	- GitHub: https://github.com/ThessaMoerloos/web-backend-oplossingen
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -638,15 +729,15 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	</thead>
 	<tbody>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>1</td>
+			<td>0</td>
+			<td>1</td>
+			<td>0</td>
+			<td>0</td>
+			<td>0</td>
+			<td>0</td>
+			<td>1</td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -726,8 +817,8 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 </table>
 
 18. Peeters Lennert
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: lennert.peeters@student.kdg.be
+	- GitHub: https://github.com/nixaun/oplossingen-backend
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -746,11 +837,11 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	</thead>
 	<tbody>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>0</td>
+			<td>1</td>
+			<td>1</td>
+			<td>0</td>
+			<td>0</td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -763,7 +854,7 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 
 19. Penu Andreea
 	- email: andreea.penu@student.kdg.be
-	- GitHub: https://github.com/AndreeaPenu/PenuAndreeaOplossingen
+	- GitHub: https://github.com/AndreeaPenu/PenuAndreeaOplossingen.git
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -782,13 +873,13 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	</thead>
 	<tbody>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>0</td>
+			<td>0</td>
+			<td>1</td>
+			<td>1</td>
+			<td>0</td>
+			<td>1</td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -799,7 +890,7 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 
 20. Pereira Jordy
 	- email: jordy.pereira@student.kdg.be
-	- GitHub: https://github.com/Woozsh/web-backend-oplossingen
+	- GitHub: https://github.com/Woozsh/web-backend-oplossingen.git
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -818,15 +909,15 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	</thead>
 	<tbody>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>1</td>
+			<td>0</td>
+			<td>1</td>
+			<td>0</td>
+			<td>0</td>
+			<td>0</td>
+			<td>0</td>
+			<td>1</td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -834,8 +925,8 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 </table>
 
 21. Robbe André
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: andrerobbe@student.kdg.be
+	- GitHub: https://github.com/andrerobbe/school-projects
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -854,11 +945,11 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	</thead>
 	<tbody>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>0</td>
+			<td>0</td>
+			<td>0</td>
+			<td>0</td>
+			<td>1</td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -870,8 +961,8 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 </table>
 
 22. Serna Delgado Yawuar
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: yawuar.sernadelgado@student.kdg.be
+	- GitHub: https://github.com/yawuar/back-end-oplossingen.git
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -890,15 +981,15 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	</thead>
 	<tbody>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -906,8 +997,8 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 </table>
 
 23. Trompeneers Enzo
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: enzo.trompeneers@student.kdg.be
+	- GitHub: https://github.com/enzotrompeneers/web-backend-oplossingen.git
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -926,13 +1017,13 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	</thead>
 	<tbody>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>0</td>
+			<td>1</td>
+			<td>0</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>0</td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -942,8 +1033,8 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 </table>
 
 24. Van Assche Jens
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: jens.vanassche@student.kdg.be
+	- GitHub: https://github.com/JensVanAssche/oplossingen.git
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -962,12 +1053,12 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	</thead>
 	<tbody>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>0</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>0</td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -978,8 +1069,8 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 </table>
 
 25. Van Dijck Hendrik
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: hendrik.vandijck@student.kdg.be
+	- GitHub: https://github.com/ajkea/web-backend-oplossingen.git
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -999,6 +1090,7 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	<tbody>
 		<tr>
 			<td></td>
+			<td>1</td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -1007,15 +1099,14 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 			<td></td>
 			<td></td>
 			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
 		</tr>
 	</tbody>
 </table>
 
 26. Van Loey Jonas
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: jonasvanloeystudent.kdg.be
+	- GitHub: https://github.com/jonasvanloey/web-backend-oplossingen.git
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -1037,11 +1128,11 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 			<td></td>
 			<td></td>
 			<td></td>
+			<td>1</td>
+			<td>1</td>
 			<td></td>
 			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -1071,13 +1162,13 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	<tbody>
 		<tr>
 			<td></td>
+			<td>1</td>
 			<td></td>
+			<td>1</td>
 			<td></td>
+			<td>1</td>
 			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -1086,8 +1177,8 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 </table>
 
 28. Verhelst Thomas
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: thomas.verhelst@student.kdg.be
+	- GitHub: https://github.com/TVke/web-backend-oplossingen.git
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -1106,11 +1197,11 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	</thead>
 	<tbody>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>0</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -1144,13 +1235,13 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 		<tr>
 			<td></td>
 			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>0</td>
+			<td>1</td>
+			<td>1</td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -1158,8 +1249,8 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 </table>
 
 30. Verschueren Tom
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: tom.verschueren@student.kdg.be
+	- GitHub: https://github.com/TomVerschueren/web-backend-oplossingen.git
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -1194,8 +1285,8 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 </table>
 
 31. Verstocken Nick
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: nick.verstocken@student.kdg.be
+	- GitHub: https://github.com/nickverstocken/web-backend-oplossingen.git
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -1243,6 +1334,7 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 			<th>24/11</th>
 			<th>01/12</th>
 			<th>08/12</th>
+			<th>11/12</th>
 			<th>15/12</th>
 			<th>22/12</th>
 			<th>12/1</th>
@@ -1250,15 +1342,16 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	</thead>
 	<tbody>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>0</td>
+			<td>0</td>
+			<td>0</td>
+			<td>0</td>
+			<td>0</td>
+			<td>0</td>
+			<td>0</td>
+			<td>0</td>
+			<td>1</td>
+			<td>0</td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -1266,8 +1359,8 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 </table>
 
 32. Luit Robbert 
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: robbert.luit@student.kdg.be
+	- GitHub: https://github.com/RobLui/web-backend-oplossingen
 	- Feedback <table>
 	<thead>
 		<tr>
@@ -1287,14 +1380,14 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 	<tbody>
 		<tr>
 			<td></td>
+			<td>1</td>
 			<td></td>
+			<td>1</td>
 			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -1302,8 +1395,8 @@ Graag! Je mag mij altijd aanspreken tijdens de les of een mailtje sturen met eve
 </table>
 
 33. Matthieu Pieter 
-	- email: e-mailadres in de vorm van @student.kdg.be
-	- GitHub: link naar de repo met je oplossingen
+	- email: pieter.matthieu@student.kdg.be
+	- GitHub: https://github.com/pietermatthieu/web-backend-oplossingen.git
 	- Feedback <table>
 	<thead>
 		<tr>
